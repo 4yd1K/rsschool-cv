@@ -87,9 +87,16 @@ var stats= "You took" + guesses + "guesses to sink the battleship, " +
  ***
  ***
 
- ## Courses:
-
+ ## **Courses:**
+ - Head first html and css(completed)
+ - Head first javascript(in progress)
+ - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+ ***
+ ## **Languages:**
  
+
+
+
 
 
 
