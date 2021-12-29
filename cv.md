@@ -93,7 +93,10 @@ var stats= "You took" + guesses + "guesses to sink the battleship, " +
  - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
  ***
  ## **Languages:**
- 
+ - Russian- Native
+ - English(School curriculum, university,Tutor A1 last year)
+
+
 
 
 
