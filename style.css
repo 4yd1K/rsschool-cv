@@ -5,7 +5,7 @@
 
 body{
     
-    /* min-height: 100vh; */
+    min-height: 100vh;
     margin: 0; 
     padding: 0;
      
@@ -25,6 +25,7 @@ body{
 .header {
     border-bottom: 5px solid rgb(72, 255, 0);
     background-color: #829985;
+    
 }
 .img {
     width: 150px;
@@ -77,6 +78,7 @@ body{
     padding-top: 20px;
   }
   
+
   #profile {
     width: 100%;
     display: flex;
@@ -85,6 +87,7 @@ body{
     padding-bottom: 20px;
     
   }
+  
  
 
   @media (max-width: 768px) {
@@ -109,3 +112,60 @@ body{
     text-align: center;
     text-transform: uppercase;
   }
+
+
+  #contacts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+
+  .section-contact-left, .section-contact-right   {
+    border-bottom: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45% ;
+
+  }
+
+  .footer {
+    background-color: #829985;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+
+    
+    
+
+
+  }
+
+  #ghlogo {
+      padding-top: 5px;
+      height: 40px;
+      width: 40px;
+      padding-right: 10px;
+  }
+
+  #yeargr{
+      font-weight: bold;
+      font-size: 24px;
+      
+  }
+
+
+  #rsslogo {
+  width: 80%;
+ height: 80%;  
+ padding-left: 5px;  
+ padding-top: 7px;
+ padding-bottom: 3px;
+    
+}
