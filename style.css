@@ -55,7 +55,7 @@ html {
   line-height: 50px;
   text-decoration: none;
   color: rgb(242, 242, 243);
-  font-size: 30px;
+  font-size: 20px;
   transition: color 1s;
 }
 
@@ -114,7 +114,7 @@ html {
 
 .section-contact-left,
 .section-contact-right {
-  border-bottom: 1px solid purple;
+  /* border-bottom: 1px solid purple;  */
   display: flex;
   flex-direction: column;
   justify-content: center;
