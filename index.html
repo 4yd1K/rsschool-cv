@@ -37,9 +37,8 @@
 
     <main class="main">
       <div>
-
         <div class="main-container">
-<!-- секция 1 -->
+          <!-- секция 1 -->
           <section class="section" id="profile">
             <img class="profilelogo" src="avatar1.png" alt="my-av" />
 
@@ -49,74 +48,105 @@
               <h4 class="section-subtitle">Logistics Manager</h4>
             </div>
           </section>
-          
 
           <!-- секция 2 -->
 
           <section class="section" id="contacts">
-
-            <div class="section-contact-left"> 
+            <div class="section-contact-left">
               <h2 class="cont">CONTACT INFORMATION</h2>
               <div class="ulcont">
-               
                 <ul>
                   <li>Phone: +375(44)510-50-32</li>
                   <li>E-mail: papirys13@yandex.by</li>
                   <li>Telegram: @Dima K</li>
-                  <li>Вконтакте: <a href="//vk.com/id16581705)">id16581705</a></li>
-                  <li>DISCORD: <a href="//discord.com/channels/@4yd)">@4yd</a></li>
-                </ul> 
-
+                  <li>
+                    Вконтакте: <a href="//vk.com/id16581705)">id16581705</a>
+                  </li>
+                  <li>
+                    DISCORD: <a href="//discord.com/channels/@4yd)">@4yd</a>
+                  </li>
+                </ul>
               </div>
-
-                
-            </div> 
+            </div>
 
             <div class="section-contact-right">
               <h2 class="summary">summary</h2>
-              <div class="summury-text" >Having started my career as a logistic menager with minimum skills, I learned how to forward cargo.
-              At the same time, I studied at the university at the Faculty of Economics.
-              
-              After graduation, I served in the army as part of the reserve.
-              At the present time I am still working:
-               1. a logistics manager at a company, 
-               2. as an individual entrepreneur in the field of logistics and wholesales of eco-solvent ink for large format printing
-              
-               A year ago I started to get involved in IT, but did not know how it works in general. I like to see the result of my work, so I want to develop in this direction.
-               
-               For 5 years I have a hobby of rc cars, now I have a collection of models of about 10 pieces of various brands.
-               
-               In our free time, we organize competitions and even rental in the park.
+              <div class="summury-text">
+                Having started my career as a logistic menager with minimum
+                skills, I learned how to forward cargo. At the same time, I
+                studied at the university at the Faculty of Economics. After
+                graduation, I served in the army as part of the reserve. At the
+                present time I am still working: 1. a logistics manager at a
+                company, 2. as an individual entrepreneur in the field of
+                logistics and wholesales of eco-solvent ink for large format
+                printing A year ago I started to get involved in IT, but did not
+                know how it works in general. I like to see the result of my
+                work, so I want to develop in this direction. For 5 years I have
+                a hobby of rc cars, now I have a collection of models of about
+                10 pieces of various brands. In our free time, we organize
+                competitions and even rental in the park.
               </div>
-              </div>
-
-            
+            </div>
           </section>
+          <!-- секция 3 -->
 
-          
+          <section class="section" id="contacts">
+            <div class="section-contact-left">
+              <h2 class="skills">skills</h2>
+              <div class="ulcont">
+                <ul>
+                  <li>skills in cargo transportation</li>
+                  <li>management skills in a company</li>
+                  <li>skills in electronics</li>
+                  <li>experience in trading ></li>
+                  <li>HTML5, CSS3 ("Head First" book)</li>
+                  <li>javascript ("Head First" book, in progress)</li>
+                </ul>
+              </div>
+            </div>
 
+            <div class="section-contact-right">
+              <h2 class="code">code</h2>
+              <div class="code-text">
+                <code>
+                  <div id="welcome"></div>
+
+                  const name = prompt('Пожалуйста, представьтесь?'); <br />
+                  if (name) { <br />
+                  <br />document.querySelector('#welcome').innerHTML =
+                  `<b>${name}</b>, добро пожаловать на сайт!`; } else { <br />
+                  <br />
+                  document.querySelector('#welcome').innerHTML = '<b>Гость</b>,
+                  добро пожаловать на сайт!'; }
+                </code>
+              </div>
+            </div>
+          </section>
         </div>
-
       </div>
-
     </main>
     <footer class="footer">
+      <div class="gh-block">
+        <a href="https://github.com/4yd1K" target="_blank">
+          <img
+            id="ghlogo"
+            src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png"
+            alt="GitHub logo"
+          />
+        </a>
+      </div>
 
-        <div class="gh-block">
-            <a href="https://github.com/4yd1K" target="_blank">
-                <img id="ghlogo" src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="GitHub logo">
-            </a>
-        </div>
+      <p id="yeargr">2021</p>
 
-        <p id="yeargr">2021</p>
-
-        <div class="rss-block">
-            <a href="https://rs.school/js/" target="_blank">
-                <img id="rsslogo" src="https://rs.school/images/rs_school_js.svg" alt="RSS logo">
-            </a>
-        </div>
-
-
+      <div class="rss-block">
+        <a href="https://rs.school/js/" target="_blank">
+          <img
+            id="rsslogo"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="RSS logo"
+          />
+        </a>
+      </div>
     </footer>
   </body>
 </html>

@@ -118,7 +118,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   /* text-transform: uppercase;  */
   width: 45%;
 }
@@ -151,11 +151,13 @@ html {
   padding-bottom: 3px;
 }
 
-.cont{
-font-weight: bold;
-/* font-size: 11px;  */
-align-content: center;
-  text-align: center; 
+.cont,
+.skills,
+.code {
+  font-weight: bold;
+  /* font-size: 11px;  */
+  align-content: center;
+  text-align: center;
 }
 
 h2 {
@@ -163,9 +165,8 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   align-content: center;
+  font-weight: bold;
 }
-.summury-text{
-
+.summury-text {
   font-size: 13px;
-  
 }
