@@ -141,14 +141,15 @@ html {
 #yeargr {
   font-weight: bold;
   font-size: 24px;
+  
 }
 
 #rsslogo {
   width: 80%;
   height: 80%;
   padding-left: 5px;
-  padding-top: 7px;
-  padding-bottom: 3px;
+  
+  padding-bottom: 1px;
 }
 
 .cont,
@@ -169,4 +170,11 @@ h2 {
 }
 .summury-text {
   font-size: 13px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
 }
