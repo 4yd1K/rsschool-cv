@@ -111,6 +111,13 @@ html {
   border-bottom: 1px solid black;
   padding-bottom: 20px;
 }
+.section{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
 
 .section-contact-left,
 .section-contact-right {
