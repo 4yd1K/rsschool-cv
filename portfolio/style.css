@@ -1,31 +1,70 @@
-.container {
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
-    color:blanchedalmond;
-  }
-
-.top-png{
-    background-image: url(/rsschool-cv/portfolio/assets/img/bg.jpg) ;
-    width: 1440px;
-    height: 910px;
-    left: 0px;
-    top: 0px;
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
 }
 
-
-  .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    /* align-items: center;
-    padding: 0 20px; */
-    /* line-height: 50px; */
-    /* flex-direction: column; */
-  /* justify-content: space-between; */
-    
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: blanchedalmond;
+}
+/* .background {
+    width: 1440px;
+   height: 910px;
+   left: 0px;
+   top: 0px;  
    
-  }   
+} */
+.header {
+  background-image: url(/rsschool-cv/portfolio/assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  height: 127px;
+}
 
-  .nav-list {
-    list-style: none;
-  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 40px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.hero {
+  background: url(/rsschool-cv/portfolio/assets/img/bg.jpg);
+  background-position: center -127px;
+  background-repeat: no-repeat;
+  height: 910px;
+  position: relative;
+}
+
+.hero-content{
+    position: absolute;
+    color: #fff;
+    height: 354px;
+    width: 352px;
+    top: 226px;
+    left: 228px;
+}
+
+.hero-button{
+    height: 55px;
+    width: 155px;
+    background-color: #bdae82;
+    text-align: center;
+}
+/* .nav{
+      width: 500px;
+      height: 50px;
+      top 20px;
+      left 850px;
+  } */
