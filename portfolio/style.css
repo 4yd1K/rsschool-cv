@@ -4,6 +4,9 @@
     border-style: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -22,8 +25,17 @@
   background-repeat: no-repeat;
   background-position: center 0;
   height: 127px;
+  position: relative;
 }
 
+.logo{
+    background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 60px;
+    top: 20px;
+}
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -35,6 +47,18 @@
   line-height: 40px;
 }
 
+a, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: #bdae82;
+    
+}
+ 
 .nav-list {
   list-style: none;
 }
@@ -43,7 +67,7 @@
   background: url(/rsschool-cv/portfolio/assets/img/bg.jpg);
   background-position: center -127px;
   background-repeat: no-repeat;
-  height: 910px;
+  height: 783px;
   position: relative;
 }
 
@@ -61,10 +85,36 @@
     width: 155px;
     background-color: #bdae82;
     text-align: center;
+    
 }
-/* .nav{
-      width: 500px;
-      height: 50px;
-      top 20px;
-      left 850px;
-  } */
+
+.skills{
+    height: 482px;
+    width: 1440px;
+    background-color: blue;
+}
+.portfolio{
+    height: 1500px;
+    width: 1440px;
+    background-color: blueviolet;
+}
+.video{
+    height: 945px;
+    width: 1440px;
+    background-color: burlywood;
+}
+.price{
+    height: 845px;
+    width: 1440px;
+    background-color: chartreuse;
+}
+
+.contacts{
+    height: 700px;
+    width: 1440px;
+    background-color: crimson;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
