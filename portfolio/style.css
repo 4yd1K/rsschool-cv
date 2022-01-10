@@ -7,6 +7,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* body{
+  width: 1440px;
+} */
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -27,6 +31,7 @@ html {
   height: 127px;
   position: relative;
 }
+
 
 .logo {
   background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
@@ -400,4 +405,13 @@ a:hover {
   font-size: 20px;
   line-height: 40px;
   color: black;
+}
+footer{
+  height: 150px;
+  background-color: black;
+  width: 1440px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  
+  
 }
