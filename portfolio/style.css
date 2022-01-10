@@ -1,11 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    border-style: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 .container {
   width: 1440px;
@@ -28,13 +28,13 @@ html {
   position: relative;
 }
 
-.logo{
-    background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 60px;
-    top: 20px;
+.logo {
+  background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 60px;
+  top: 20px;
 }
 .nav-list {
   display: flex;
@@ -47,18 +47,18 @@ html {
   line-height: 40px;
 }
 /* стиль кнопки после посещения  */
-a, a:visited{
-    color: #fff;
-    text-decoration: none;
+a,
+a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* стиль кнопки при наведении  */
-a:hover{                            
-    text-decoration: none;
-    color: #bdae82;
-    
+a:hover {
+  text-decoration: none;
+  color: #bdae82;
 }
- 
+
 .nav-list {
   list-style: none;
 }
@@ -71,113 +71,181 @@ a:hover{
   position: relative;
 }
 
-.hero-content{
-    position: absolute;
-    color: #fff;
-    height: 354px;
-    width: 352px;
-    top: 226px;
-    left: 228px;
+.hero-content {
+  position: absolute;
+  color: #fff;
+  height: 354px;
+  width: 352px;
+  top: 226px;
+  left: 228px;
 }
 
-.h1{
-   width: 352px;
-   height: 120px; 
-   font-size: 60px;
-   line-height: 120px;
-   font-family:Arial, Helvetica, sans-serif ;  
-   /* нужно изменить шрифт */
+.h1 {
+  width: 352px;
+  height: 120px;
+  font-size: 60px;
+  line-height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* нужно изменить шрифт */
 }
 
-.hero-button{
-    height: 55px;
-    width: 155px;
-    background-color: #bdae82;
-    text-align: center;
-    size: 20px;
-    line-height: 40px; 
-    left: 0%;
-    right: 0%;
-    margin-top: 2px;
-  
+.hero-button {
+  height: 55px;
+  width: 155px;
+  background-color: #bdae82;
+  text-align: center;
+  size: 20px;
+  line-height: 40px;
+  left: 0%;
+  right: 0%;
+  margin-top: 2px;
 }
 
-.text-button{
+.text-button {
+}
+.skills {
+  height: 482px;
+  width: 1440px;
+  background-color: black;
+}
+.portfolio {
+  height: 1500px;
+  width: 1440px;
+  background-color: blueviolet;
+}
+.video {
+  height: 945px;
+  width: 1440px;
+  background-color: burlywood;
+}
+.price {
+  height: 845px;
+  width: 1440px;
+  background-color: chartreuse;
+}
+
+.contacts {
+  height: 700px;
+  width: 1440px;
+  background-color: crimson;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.hero-text {
+  font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  /* height: 160px; */
+  top: 130px;
+  left: 0%;
+  right: 6%;
+}
+
+.skills {
+  /* position: relative; */
+}
+.section-title {
+  height: 80px;
+  width: 700px;
+  margin-left: 370px;
+  margin-right: 370px;
+  margin-top: 100px;
+
+  /* background-color: red; */
+
+  text-align: center;
+  /* фон сплошной линией */
+  background-image: linear-gradient(
+    to top,
+    #000 39px,
+    #bdae82 39px,
+    #bdae82 41px,
+    #000 41px
+  );
+}
+
+.span {
+  width: 130px;
+  height: 80px;
+  position: absolute;
+  margin-left: 294px;
+  margin-top: 8px;
+  background-color: black;
+  font-size: 50px;
+}
+
+.skills-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills-item {
+  width: 320px;
+  height: 240px;
+  left: 0%;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.skill-photo{
+ text-align: center; 
+}
+
+
+.skill-description{
+  font-size: 18px;
+  line-height: 36px;
+  padding-top: 20px;
+}
+.skill-text{
+
+  width: 280px;
+  padding-left: 20px;
+}
+
+/* .skill-photo {
+  background: url(/rsschool-cv/portfolio/assets/svg/camera\ 1.svg)  center top
+    no-repeat ;
+    background-size: 62px 50px;
+    height: 50px;
     
-}
-.skills{
-    height: 482px;
-    width: 1440px;
-    background-color: black;
-}
-.portfolio{
-    height: 1500px;
-    width: 1440px;
-    background-color: blueviolet;
-}
-.video{
-    height: 945px;
-    width: 1440px;
-    background-color: burlywood;
-}
-.price{
-    height: 845px;
-    width: 1440px;
-    background-color: chartreuse;
-}
-
-.contacts{
-    height: 700px;
-    width: 1440px;
-    background-color: crimson;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-}
-.hero-text{
-    font-family: ;
-    font-style:normal ;
-    font-weight:normal ;
-    font-size: 20px;
-    line-height: 40px;
-    /* height: 160px; */
-    top: 130px;
-    left: 0%;
-    right: 6%;
-}
-
-.skills{
-/* position: relative; */
-}
-.section-title{
-   height: 80px;
-   width: 700px;
-   margin-left: 370px;
-   margin-right: 370px;
-   margin-top: 100px;
   
-   
-    /* background-color: red; */
     
-    text-align: center;
- 
-    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
-      
-  
+} */
+.skill-video {
+    background: url(/rsschool-cv/portfolio/assets/svg/video\ 1.svg) center top no-repeat;
 }
-
-
-
-    
-.span{
-      width: 130px;
-    height: 80px;
-    position: absolute;
-    margin-left: 294px;
-    margin-top: 8px;
-    background-color: black;
-    font-size: 50px;
+.skill-retouch {
+    background: url(/rsschool-cv/portfolio/assets/svg/image\ 1.svg) center top no-repeat;
 }
-   
+.skill-audio{
+    background: url(/rsschool-cv/portfolio/assets/svg/mic\ 1.svg) center top no-repeat;
+}
+/* background-color: brown; */
+/* background-image: url(/rsschool-cv/portfolio/assets/svg/camera\ 1.svg);
+    ba
+    background-size: 62px 50px ;
+    background-position: center top; */
 
+/* .skills-item {
+background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
+    background-size: 62px 50px;
+    background-position: center top;
+} */
+
+/* 
+  .skill-item {
+    background-position: center top;
+  }
+  .skill-item1 {
+    background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
+    background-size: 62px 50px;
+  } */
