@@ -196,18 +196,17 @@ a:hover {
   background-color: black;
   font-size: 50px;
 }
-/* #portfolio{
 
-
-  width: 130px;
-  height: 80px;
+.span4 {
+  width: 160px;
+  /* height: 80px; */
   position: absolute;
-  margin-left: 294px;
-  margin-top: 8px;
+  margin-left: 293px;
+  padding-top: 8px;
   background-color: black;
   font-size: 50px;
+}
 
-} */
 .skills-items {
   display: flex;
   justify-content: space-between;
@@ -225,24 +224,21 @@ a:hover {
   justify-content: space-between;
 }
 
-.skill-photo .skill-video{
- text-align: center; 
+.skill-photo .skill-video {
+  text-align: center;
 }
 
-
-.skill-description{
+.skill-description {
   font-size: 18px;
   line-height: 36px;
   padding-top: 20px;
 }
-.skill-text{
-
+.skill-text {
   width: 280px;
   padding-left: 20px;
 }
 
-
-.seasons{
+.seasons {
   /* width: 895px; */
   height: 55px;
   top: 240px;
@@ -251,15 +247,14 @@ a:hover {
   justify-content: center;
   gap: 5px;
   padding-top: 60px;
-
 }
 
-.season{
+.season {
   width: 220px;
   height: 55px;
   text-align: center;
   font-size: 20px;
-  
+
   /* background-color: red; */
   /* border-color: white; */
 
@@ -269,40 +264,140 @@ a:hover {
   /* padding: 14px 28px; */
   /* font-size: 16px; */
   cursor: pointer;
-  
 
-/*   
+  /*   
   border-color: solid #bdae82; */
-    color: #bdae82;
-
-
-
+  color: #bdae82;
 }
-.season:hover{
- background-color: #bdae82;
- color: black;
+.season:hover {
+  background-color: #bdae82;
+  color: black;
 }
 
-.portfolio-items{
+.portfolio-items {
   justify-content: center;
   display: flex;
   gap: 25px;
   padding-top: 60px;
-  
+
   /* display: inline-block; */
   flex-wrap: wrap;
 }
 
-.player{
-
+.player {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 60px;
-
 }
 
-.play{
+.play {
   position: absolute;
+}
+
+.price-items {
+  display: flex;
+  width: 1400px;
+  height: 505px;
+  justify-content: center;
+  padding-top: 60px;
+  padding-left: 20px;
+  gap: 25px;
+}
+.price-item {
+  width: 450px;
+  height: 505px;
+  border: 2px solid #bdae82;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-card {
+  font-size: 28px;
+  font-display: top;
+  padding-top: 43px;
+  line-height: 56px;
+  font-weight: 700;
+  /* font-family: Merriweather; */
+}
+
+.price-card {
+  font-size: 24px;
+  padding-top: 20px;
+  line-height: 48px;
+  font-weight: 700;
+  /* display: flex; */
+}
+
+.description {
+  padding-top: 20px;
+  height: 180px;
+  padding-bottom: 50px;
+  /* display: flex;  */
+  /* flex-direction: column;  */
+}
+
+.num1 {
+  display: block;
+  /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+  font-weight: 400;
+  line-height: 36px;
+  /* font-family: Inter; */
+}
+
+.num2 {
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: 400;
+  line-height: 36px;
+}
+.num3 {
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.num4 {
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: 400;
+  line-height: 36px;
+}
+.num5 {
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.order {
+  width: 220px;
+  height: 55px;
+  text-align: center;
+
+  background-color: #bdae82;
+
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
 }
