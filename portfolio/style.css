@@ -111,7 +111,7 @@ a:hover {
 .portfolio {
   height: 1500px;
   width: 1440px;
-  background-color: blueviolet;
+  background-color: black;
 }
 .video {
   height: 945px;
@@ -178,6 +178,27 @@ a:hover {
   font-size: 50px;
 }
 
+.span2 {
+  width: 220px;
+  height: 80px;
+  position: absolute;
+  margin-left: 249px;
+  margin-top: 8px;
+  background-color: black;
+  font-size: 50px;
+}
+/* #portfolio{
+
+
+  width: 130px;
+  height: 80px;
+  position: absolute;
+  margin-left: 294px;
+  margin-top: 8px;
+  background-color: black;
+  font-size: 50px;
+
+} */
 .skills-items {
   display: flex;
   justify-content: space-between;
@@ -211,25 +232,6 @@ a:hover {
   padding-left: 20px;
 }
 
-/* .skill-video{
-  padding-bottom: ;
-} */
 
-/* .skill-photo {
-  background: url(/rsschool-cv/portfolio/assets/svg/camera\ 1.svg)  center top
-    no-repeat ;
-    background-size: 62px 50px;
-    height: 50px;
-    
-  
-    
-} */
-/* .skill-video {
-    background: url(/rsschool-cv/portfolio/assets/svg/video\ 1.svg) center top no-repeat;
-} */
-/* .skill-retouch {
-    background: url(/rsschool-cv/portfolio/assets/svg/image\ 1.svg) center top no-repeat;
-}
-.skill-audio{
-    background: url(/rsschool-cv/portfolio/assets/svg/mic\ 1.svg) center top no-repeat;
-} */
+
+
