@@ -195,7 +195,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.skill-photo{
+.skill-photo .skill-video{
  text-align: center; 
 }
 
@@ -220,32 +220,12 @@ a:hover {
   
     
 } */
-.skill-video {
+/* .skill-video {
     background: url(/rsschool-cv/portfolio/assets/svg/video\ 1.svg) center top no-repeat;
-}
+} */
 .skill-retouch {
     background: url(/rsschool-cv/portfolio/assets/svg/image\ 1.svg) center top no-repeat;
 }
 .skill-audio{
     background: url(/rsschool-cv/portfolio/assets/svg/mic\ 1.svg) center top no-repeat;
 }
-/* background-color: brown; */
-/* background-image: url(/rsschool-cv/portfolio/assets/svg/camera\ 1.svg);
-    ba
-    background-size: 62px 50px ;
-    background-position: center top; */
-
-/* .skills-item {
-background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
-    background-size: 62px 50px;
-    background-position: center top;
-} */
-
-/* 
-  .skill-item {
-    background-position: center top;
-  }
-  .skill-item1 {
-    background-image: url(/rsschool-cv/portfolio/assets/svg/logo.svg);
-    background-size: 62px 50px;
-  } */
