@@ -145,7 +145,7 @@ a:hover {
 .contacts {
   height: 700px;
   width: 1440px;
-  background-color: crimson;
+  background-color: black;
 }
 .main {
   display: flex;
@@ -220,6 +220,15 @@ a:hover {
   /* height: 80px; */
   position: absolute;
   margin-left: 293px;
+  padding-top: 8px;
+  background-color: black;
+  font-size: 50px;
+}
+.span5 {
+  width: 240px;
+  /* height: 80px; */
+  position: absolute;
+  margin-left: 234px;
   padding-top: 8px;
   background-color: black;
   font-size: 50px;
@@ -427,4 +436,14 @@ footer{
   /* padding: 0 20px; */
   
   
+}
+
+/* .img-contacts{
+  
+  height: 700px;
+  padding-top: 100px;
+  
+} */
+.section-contacts{
+  padding-top: 100px;
 }
