@@ -524,12 +524,9 @@ textarea{
   margin: 0 auto;
   padding: 0 20;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   
-copy{
-  width: 100px;
-  height: 100px;
-}
+
 
 
 
@@ -565,6 +562,8 @@ display: flex;
   width: 188px;
   height: 150px;
   line-height: 50px;
-  background-color: white;
+  text-align: center;
+  display: flex;
+  /* background-color: white; */
   
 }
