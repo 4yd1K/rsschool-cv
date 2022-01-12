@@ -97,23 +97,42 @@ a:hover {
 }
 
 .hero-button {
+  
   height: 55px;
   width: 155px;
+  
   background-color: #bdae82;
   text-align: center;
-  size: 20px;
+  font-size: 20px;
   line-height: 40px;
-  left: 0%;
-  right: 0%;
-  margin-top: 2px;
+  font-family: inter ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.text-button {
+a.hero-button:hover{
+  color: aqua;
 }
+
+button{
+  cursor: pointer;
+}
+button:hover{
+  color: #fff;
+}
+
+/* .text-button {
+  color: #000;
+} */
 .skills {
   height: 482px;
   width: 1440px;
   background-color: black;
+}
+hero-button a :hover{
+  color: #fff;
+  /* background-color: #fff; */
 }
 .portfolio {
   height: 1500px;
@@ -416,6 +435,9 @@ a:hover {
   font-size: 20px;
   line-height: 40px;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 
@@ -455,6 +477,8 @@ line-height: 80px;
   height: 46px;
   border-color: #bdae82;
   background: transparent;
+  color: #bdae82;
+  font-size: 20px;
 }
 #tel{
   width: 446px;
@@ -462,9 +486,11 @@ line-height: 80px;
   border-color: #bdae82;
   background: transparent;
   margin-top: 20px;
+  color: #bdae82;
+  font-size: 20px;
 }
 
-#mail::placeholder {
+::placeholder {
   font-family: inherit;
   color: #bdae82;
   font-size: 20px;
@@ -474,16 +500,7 @@ line-height: 80px;
   font-family: inter sans-serif;
   
 }
-#tel::placeholder {
-  font-family: inherit;
-  color: #bdae82;
-  font-size: 20px;
-  padding-left: 20px;
-  line-height: 40px;
-  font-family: inter sans-serif;
-}
-
-#comment::placeholder{
+::placeholder {
   font-family: inherit;
   color: #bdae82;
   font-size: 20px;
@@ -500,6 +517,12 @@ textarea{
   background: transparent;
   margin-top: 20px;
   
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+
+  line-height: 40px;
+  font-family: inter sans-serif;
 } 
 
 .button-cont{
@@ -515,6 +538,10 @@ textarea{
   line-height: 40px;
   font-family: inter sans-serif;
   color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 
 .footer-container {
