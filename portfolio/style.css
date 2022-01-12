@@ -523,12 +523,16 @@ textarea{
   width: 1400px;
   margin: 0 auto;
   padding: 0 20;
-  
+  display: flex;
+  justify-content: space-around;
   
 copy{
   width: 100px;
   height: 100px;
 }
+
+
+
 
 }
 .icons{
@@ -542,3 +546,25 @@ copy{
   
   
 } 
+
+.School{
+width: 211px;
+height: 150px;
+font-size: 20px;
+
+color: white;
+line-height: 50px;
+align-items: center;
+text-align: center;
+display: flex;
+
+
+}
+
+.Social{
+  width: 188px;
+  height: 150px;
+  line-height: 50px;
+  background-color: white;
+  
+}
