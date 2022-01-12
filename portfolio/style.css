@@ -520,9 +520,25 @@ textarea{
 .footer-container {
   height: 150px;
   background-color: black;
-  width: 1440px;
+  width: 1400px;
   margin: 0 auto;
   padding: 0 20;
   
   
+copy{
+  width: 100px;
+  height: 100px;
 }
+
+}
+.icons{
+ /* align-items: center; */
+ width: 182px;
+  height: 150px;
+  display: flex;
+  line-height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+} 
