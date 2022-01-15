@@ -79,14 +79,17 @@ a:visited {
   font-size:20px;
   line-height: 50px;
   font-family: inter;
-  style: normal;
-
+  transition: 0.3s;
 }
+/* .switch-lng:hover{
+  transition: 0.3s;
+} */
 
 /* стиль кнопки при наведении  */
 a:hover {
   text-decoration: none;
   color: #bdae82;
+  transition: 0.3s;
 }
 
 .nav-list {
@@ -162,16 +165,14 @@ a:hover {
   justify-content: space-around;
 }
 
-a.hero-button:hover{
-  color: aqua;
-}
 
+/* 
 button{
   cursor: pointer;
 }
 button:hover{
   color: #fff;
-}
+} */
 
 /* .text-button {
   color: #000;
@@ -182,9 +183,10 @@ button:hover{
   background-color: black;
   
 }
-hero-button a :hover{
+.hero-button:hover{
   color: #fff;
-  /* background-color: #fff; */
+  transition: 0.3s;
+  
 }
 .portfolio {
   height: 1500px;
@@ -363,13 +365,9 @@ hero-button a :hover{
 
   border: 2px solid #bdae82;
   background-color: black;
-  /* color: black; */
-  /* padding: 14px 28px; */
-  /* font-size: 16px; */
+
   cursor: pointer;
 
-  /*   
-  border-color: solid #bdae82; */
   color: #bdae82;
 }
 .season:hover {
@@ -496,6 +494,11 @@ hero-button a :hover{
   justify-content: space-around;
 }
 
+.order:hover{
+  color: #fff;
+}
+
+
 
 .section-contacts {
   height: 700px;
@@ -601,6 +604,9 @@ textarea{
   justify-content: space-around;
   
 }
+.button-cont:hover{
+  color: #fff;
+}
 
 .footer-container {
   height: 150px;
@@ -657,4 +663,25 @@ display: flex;
  align-items: center;
  justify-content: space-around;
  width: 188px;
+}
+
+.s1:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition: 0.3s;
+}
+.s2:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition: 0.3s;
+}
+.s3:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition: 0.3s;
+}
+.s4:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+  transition: 0.3s;
 }
