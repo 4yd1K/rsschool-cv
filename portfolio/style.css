@@ -1,11 +1,11 @@
 @font-face {
   font-family: Merriweather, serif;
-  src: url("/rsschool-cv/portfolio/assets/fonts/Merriweather/Merriweather-Bold.ttf");
+  src: url("../portfolio/assets/fonts/Merriweather/Merriweather-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "Inter";
-  src: url("/rsschool-cv/portfolio/assets/fonts/Inter/static/Inter-Regular.ttf");
+  src: url("../portfolio/assets/fonts/Inter/static/Inter-Regular.ttf");
   font-weight: 400;
 }
 
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .hero {
-  background: url(/rsschool-cv/portfolio/assets/img/bg.jpg);
+  background: url(../portfolio/assets/img/bg.jpg);
   background-position: center -127px;
   background-repeat: no-repeat;
   height: 783px;
@@ -499,7 +499,7 @@ hero-button a :hover{
 
 .section-contacts {
   height: 700px;
-  background-image: url(/rsschool-cv/portfolio/assets/img/contacts.jpg);
+  background-image: url(../portfolio/assets/img/contacts.jpg);
   display: flex;
   justify-content: right;
   width: 1440px;
