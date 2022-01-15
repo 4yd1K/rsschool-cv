@@ -193,6 +193,10 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+.header-block{
+ width: 700px;
+ height: 80px;
+}
 
 .section-title {
   height: 80px;
@@ -217,6 +221,7 @@ a:hover {
   height: 80px;
   position: absolute;
   margin-left: 272px;
+  display: block;
   background-color: black;
   font-size: 40px;
   line-height: 80px;
