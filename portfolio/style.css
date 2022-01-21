@@ -23,7 +23,7 @@ html {
 .container {
   width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   color: blanchedalmond;
 }
 
@@ -33,6 +33,150 @@ html {
   background-position: center 0;
   height: 127px;
   position: relative;
+  
+}
+
+@media (max-width: 768px) {
+  
+ 
+  
+  .header{
+    justify-content: space-around;
+    max-width: 768px;
+    
+    
+  }
+  .logo{
+   
+    padding: 0px 20px 0px 20px;
+    
+  }
+
+  .container{
+    justify-content: space-around;
+    max-width: 768px;
+  }
+ 
+  .hero{
+    justify-content: space-around;
+    max-width: 768px;
+  }
+  .section-title{
+    justify-content: space-around;
+    max-width: 100px;
+    background-image: none;
+    display: flex;
+  justify-content: right;
+    
+    
+  
+   
+  }
+
+  
+  .span{
+    justify-content: space-around;
+    max-width: 118px;
+    justify-content: right;
+  
+  }
+  .span2{
+    justify-content: space-around;
+    max-width: 158px;
+    justify-content: right;
+  }
+
+  .spa3{
+    justify-content: space-around;
+    max-width: 118px;
+    justify-content: right;
+  }
+  .skills{
+    justify-content: space-around;
+    max-width: 768px;
+    height: 729px;
+    padding: 90px 0px 300px 0px;
+    
+   
+  }
+  .skills-items{
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    /* height: 729px; */
+  
+    max-width: 768px;
+  }
+  
+
+  .portfolio{
+    justify-content: space-around;
+    max-width: 768px;
+    padding: 0px 0px 2340px 0px;
+    
+  }
+  .portfolio-items{
+    flex-wrap: wrap;
+  }
+  .seasons{
+    flex-wrap: wrap;
+    width: 445px;
+    align-items: center;
+    padding-left: 162px;
+    padding-bottom: 50px;
+    
+   
+  
+  }
+
+  .video{
+    justify-content: space-around;
+    max-width: 768px;
+  }
+
+  
+  .player{
+    justify-content: space-around;
+    max-width: 768px;
+    
+  }
+
+  .price{
+    justify-content: space-around;
+    max-width: 768px;
+    padding: 0px 0px 1000px 0px;
+   
+  }
+
+  .section-contacts{
+    justify-content: space-around;
+    max-width: 768px;
+  }
+
+  .footer-container{
+    justify-content: space-around;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+
+  .price-items{
+    justify-content: space-around;
+    max-width: calc(100% - 40px);
+    flex-wrap: wrap;
+  }
+
+  .section-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
 }
 
 .background{
@@ -40,6 +184,8 @@ html {
   justify-content: space-around;
   padding-top: 20px;
 }
+
+
 .logo {
  width: 50px;
  height: 50px;

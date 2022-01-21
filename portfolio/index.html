@@ -188,7 +188,13 @@
       
          
               <div class="player">
-      <img src="./assets/img/video-player.jpg" alt="video-img">
+      <img  srcset="./assets/img/video-player.jpg 320w,
+                    ./assets/img/video-player.jpg 480w,
+                    ./assets/img/video-player.jpg 800w"
+      sizes="(max-width: 440px) 440px,
+            (max-width: 768px) 440px,
+            800px"
+      src="./assets/img/video-player.jpg" alt="video-img">
 
 <div class="play"> <img src="./assets/img/Play_hover.png" alt="play">  </div>
 
@@ -322,7 +328,7 @@
         <li><a class = "s4" href=""><img src="./assets/svg/pinterest1.svg" alt="pin"></a></li>
       </ul>
     </div>
-    
+  
     </footer>
     <script src="index.js"></script>
   </body>
