@@ -197,6 +197,7 @@ a:hover {
   width: 352px;
   top: 100px;
   left: 228px;
+  margin-top: -127px;
 }
 
 .hero-text {
@@ -749,16 +750,22 @@ textarea {
 
     background-size: auto 620px;
     margin-bottom: -432px;
+    background-position: -6px -163px;
   }
   
 
   .hero-content {
     justify-content: space-around;
     max-width: 768px;
-    margin-left: -187px;
+    margin-left: -169px;
     padding-bottom: 10px;
     
   }
+
+  .hero-button{
+    width: 221px;
+  }
+
 
 
   .section-title {
