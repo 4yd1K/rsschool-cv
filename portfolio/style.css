@@ -195,7 +195,7 @@ a:hover {
   color: #fff;
   height: 354px;
   width: 352px;
-  top: 100px;
+  top: 224px;
   left: 228px;
   margin-top: -127px;
 }
@@ -255,6 +255,7 @@ a:hover {
   height: 845px;
   width: 1440px;
   background-color: black;
+  
 }
 
 .contacts {
@@ -734,6 +735,8 @@ textarea {
     max-width: 768px;
     display: flex;
     position: relative;
+    background-size: auto 620px;
+    background-position: -5px -35px;
   }
   
 
@@ -759,11 +762,24 @@ textarea {
     max-width: 768px;
     margin-left: -169px;
     padding-bottom: 10px;
+    margin-top: -251px;
     
   }
+  .hero-text{
+    line-height: 23px;
+    margin-bottom: 66px;
+    margin-top: 28px;
+    width: 389px;
 
+  }
+  .h1{
+    font-size: 32px;
+    margin-bottom: -35px;
+    margin-top: 36px;
+  }
   .hero-button{
     width: 221px;
+    margin-top: -5px;
   }
 
 
@@ -801,6 +817,7 @@ textarea {
   .skills-items {
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 7px;
 
     /* height: 729px; */
 
@@ -810,7 +827,7 @@ textarea {
   .portfolio {
     justify-content: space-around;
     max-width: 768px;
-    padding: 0px 0px 2340px 0px;
+    padding: 0px 0px 2400px 0px;
     margin-top: -307px;
   }
   .portfolio-items {
@@ -828,18 +845,38 @@ textarea {
   .video {
     justify-content: space-around;
     max-width: 768px;
+    
+    height: 930px;
+    margin-top: -1px;
   }
 
   .player {
     justify-content: space-around;
     max-width: 768px;
+    margin-top: -30px;
+    padding-top: 67px;
+  }
+
+  .span3{
+    line-height: 39px;
+    font-size: 34px;
+  }
+  .span4{
+    margin-top: 10px;
+    font-size: 34px;
   }
 
   .price {
     justify-content: space-around;
     max-width: 768px;
-   padding-bottom: 1088px;
-    margin-top: -286px;
+   padding-bottom: 37px;
+    margin-top: -333px;
+    height: 1900px;
+  }
+
+  .play{
+    height: 50px;
+    width: 50px;
   }
 
   .section-contacts {
@@ -855,6 +892,20 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    margin-top: -101px;
+    height: 200px;
+  }
+  .School{
+    margin-top: -36px;
+    /* padding-top: 20px; */
+    height: 69px;
+    margin-bottom: 19px;
+  }
+
+  .Social-list{
+    /* margin-top: 29px; */
+    margin-bottom: 29px;
   }
 
   .price-items {
@@ -876,8 +927,23 @@ textarea {
     /* margin-top: -71px; */
   }
 
+  .title-contact{
+    margin-left: 132px;
+    font-size: 32px;
+    padding-top: 21px;
+    padding-bottom: 31px;
+  }
+
+  .button-cont{
+
+    margin-left: 115px;
+    margin-top: 24px;
+    font-size: 25px;
+  }
+
   .contacts-conteiner{
     position: 30 30;
-    margin-top: -191px;
+    margin-top: -195px;
+    margin-left: 21px;
   }
 }

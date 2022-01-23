@@ -200,14 +200,23 @@
               ./assets/img/video-player.jpg 800w
             "
             sizes="(max-width: 440px) 440px,
-            (max-width: 768px) 440px,
-            800px"
+            (max-width: 768px) 450px,
+            750px"
             src="./assets/img/video-player.jpg"
             alt="video-img"
           />
 
           <div class="play">
-            <img src="./assets/img/Play_hover.png" alt="play" />
+            <img 
+            srcset="
+               ./assets/img/Play_hover.png 320w,
+               ./assets/img/Play_hover.png 480w,
+               ./assets/img/Play_hover.png 800w
+            "
+            sizes="(max-width: 350px) 350px,
+            (max-width: 768px) 350px,
+            350px"
+            src="./assets/img/Play_hover.png" alt="play" />
           </div>
         </div>
       </section>
@@ -273,7 +282,7 @@
           <input type="email" id="mail" placeholder="E-mail" />
           <input type="tel" id="tel" placeholder="Phone" />
           <textarea placeholder="Message"> </textarea>
-          <button class="button-cont">Send Message</button>
+          <button class="button-cont">Send message</button>
         </div>
       </section>
     </main>
