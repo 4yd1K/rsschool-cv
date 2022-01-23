@@ -110,198 +110,6 @@ html {
   transition: 0.5s
 }
 
-@media (max-width: 768px) {
-  .right-menu {
-    /* display: none; */
-    height: 300px;
-    transition: 0.5s
-}
-
-/* .hero{
- height: 590px;
- 
-  background-image: url(/portfolio/assets/img/bg2.jpg);
-} */
-  
-.open-menu {
-  left: 61%;
-  display: flex;
-  width: 300px;
-  position: absolute;
-  transition: 0.5s
-  
-}
-
-
-  .toggleMenu {
-    width: 0px;
-    height: 300px;
-    background-color: black;
-    position: absolute;
-    transition: 0.5s
-   
-  }
-
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    user-select: none;
-    z-index: 2;
-  }
-  .nav-link {
-    display: none;
-    
-  }
-
- 
-
-  .header {
-    background-size: auto 620px;
-    justify-content: space-around;
-    max-width: 768px;
-    display: flex;
-    position: relative;
-  }
-  
-
-  .logo {
-    padding: 0px 20px 0px 20px;
-  }
-
-  .container {
-    justify-content: space-around;
-    max-width: 768px;
-  }
-
-  .hero{
-
-    background-size: auto 620px;
-    margin-bottom: -432px;
-  }
-  
-
-  .hero-content {
-    justify-content: space-around;
-    max-width: 768px;
-    margin-left: -187px;
-    padding-bottom: 10px;
-    
-  }
-
-
-  .section-title {
-    justify-content: space-around;
-    max-width: 100px;
-    background-image: none;
-    display: flex;
-    justify-content: right;
-  }
-
-  .span {
-    justify-content: space-around;
-    max-width: 118px;
-    justify-content: right;
-  }
-  .span2 {
-    justify-content: space-around;
-    max-width: 158px;
-    justify-content: right;
-  }
-
-  .spa3 {
-    justify-content: space-around;
-    max-width: 118px;
-    justify-content: right;
-  }
-  .skills {
-    justify-content: space-around;
-    max-width: 768px;
-    height: 729px;
-    padding: 90px 0px 300px 0px;
-  }
-  .skills-items {
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    /* height: 729px; */
-
-    max-width: 768px;
-  }
-
-  .portfolio {
-    justify-content: space-around;
-    max-width: 768px;
-    padding: 0px 0px 2340px 0px;
-    margin-top: -61px;
-  }
-  .portfolio-items {
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
-  .seasons {
-    flex-wrap: wrap;
-    width: 445px;
-    align-items: center;
-    padding-left: 162px;
-    padding-bottom: 50px;
-  }
-
-  .video {
-    justify-content: space-around;
-    max-width: 768px;
-  }
-
-  .player {
-    justify-content: space-around;
-    max-width: 768px;
-  }
-
-  .price {
-    justify-content: space-around;
-    max-width: 768px;
-   padding-bottom: 1088px;
-    margin-top: -286px;
-  }
-
-  .section-contacts {
-    justify-content: space-around;
-    max-width: 768px;
-    background-size: auto 600px;
-    background-position: -227px 0px;
-  }
-
-  .footer-container {
-    justify-content: space-around;
-    max-width: 768px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .price-items {
-    justify-content: space-around;
-    max-width: calc(100% - 40px);
-    flex-wrap: wrap;
-  }
-  .price-item{
-    width: 419px;
-  }
-
-  .section-contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contacts-conteiner{
-    position: 30 30;
-  }
-}
 
 .background {
   display: flex;
@@ -866,4 +674,203 @@ textarea {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
   transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+  .right-menu {
+    /* display: none; */
+    height: 300px;
+    transition: 0.5s
+}
+
+/* .hero{
+ height: 590px;
+ 
+  background-image: url(/portfolio/assets/img/bg2.jpg);
+} */
+  
+.open-menu {
+  left: 61%;
+  display: flex;
+  width: 300px;
+  position: absolute;
+  transition: 0.5s
+  
+}
+
+
+  .toggleMenu {
+    width: 0px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s
+   
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+  }
+  .nav-link {
+    display: none;
+    
+  }
+
+ 
+
+  .header {
+    background-size: auto 620px;
+    justify-content: space-around;
+    max-width: 768px;
+    display: flex;
+    position: relative;
+  }
+  
+
+  .logo {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .container {
+    justify-content: space-around;
+    max-width: 768px;
+  }
+
+  .hero{
+
+    background-size: auto 620px;
+    margin-bottom: -432px;
+  }
+  
+
+  .hero-content {
+    justify-content: space-around;
+    max-width: 768px;
+    margin-left: -187px;
+    padding-bottom: 10px;
+    
+  }
+
+
+  .section-title {
+    justify-content: space-around;
+    max-width: 100px;
+    background-image: none;
+    display: flex;
+    justify-content: right;
+  }
+
+  .span {
+    justify-content: space-around;
+    max-width: 118px;
+    justify-content: right;
+  }
+  .span2 {
+    justify-content: space-around;
+    max-width: 158px;
+    justify-content: right;
+  }
+
+  .spa3 {
+    justify-content: space-around;
+    max-width: 118px;
+    justify-content: right;
+  }
+  .skills {
+    justify-content: space-around;
+    max-width: 768px;
+    height: 729px;
+    padding: 90px 0px 300px 0px;
+  }
+  .skills-items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* height: 729px; */
+
+    max-width: 768px;
+  }
+
+  .portfolio {
+    justify-content: space-around;
+    max-width: 768px;
+    padding: 0px 0px 2340px 0px;
+    margin-top: -307px;
+  }
+  .portfolio-items {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .seasons {
+    flex-wrap: wrap;
+    width: 445px;
+    align-items: center;
+    padding-left: 162px;
+    padding-bottom: 50px;
+  }
+
+  .video {
+    justify-content: space-around;
+    max-width: 768px;
+  }
+
+  .player {
+    justify-content: space-around;
+    max-width: 768px;
+  }
+
+  .price {
+    justify-content: space-around;
+    max-width: 768px;
+   padding-bottom: 1088px;
+    margin-top: -286px;
+  }
+
+  .section-contacts {
+    justify-content: space-around;
+    max-width: 768px;
+    background-size: auto 600px;
+    background-position: -227px 0px;
+  }
+
+  .footer-container {
+    justify-content: space-around;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-items {
+    justify-content: space-around;
+    max-width: calc(100% - 40px);
+    flex-wrap: wrap;
+  }
+  .price-item{
+    width: 419px;
+    height: 500px;
+    margin-bottom: 24px;
+  }
+
+  .section-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    /* margin-top: -71px; */
+  }
+
+  .contacts-conteiner{
+    position: 30 30;
+    margin-top: -191px;
+  }
 }
