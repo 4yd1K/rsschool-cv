@@ -957,8 +957,9 @@ line-height: 88px;
     max-width: 768px;
     margin-top: -30px;
     padding-top: 67px;
-    height: 400px;
-    width: 749px;
+    height: 419px;
+    width: 750px;
+    margin-left: 9px;
   }
 
   .span3{
@@ -995,8 +996,8 @@ line-height: 88px;
   }
 
   .play{
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 60px;
   }
 
   .section-contacts {
