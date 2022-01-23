@@ -117,6 +117,11 @@ html {
     transition: 0.5s
 }
 
+/* .hero{
+ height: 590px;
+ 
+  background-image: url(/portfolio/assets/img/bg2.jpg);
+} */
   
 .open-menu {
   left: 61%;
@@ -156,11 +161,13 @@ html {
  
 
   .header {
+    background-size: auto 620px;
     justify-content: space-around;
     max-width: 768px;
     display: flex;
     position: relative;
   }
+  
 
   .logo {
     padding: 0px 20px 0px 20px;
@@ -171,16 +178,22 @@ html {
     max-width: 768px;
   }
 
-  .hero {
-    justify-content: space-around;
-    max-width: 768px;
+  .hero{
+
+    background-size: auto 620px;
+    margin-bottom: -432px;
   }
+  
 
   .hero-content {
     justify-content: space-around;
     max-width: 768px;
-    margin-left: 30px;
+    margin-left: -187px;
+    padding-bottom: 10px;
+    
   }
+
+
   .section-title {
     justify-content: space-around;
     max-width: 100px;
@@ -224,9 +237,11 @@ html {
     justify-content: space-around;
     max-width: 768px;
     padding: 0px 0px 2340px 0px;
+    margin-top: -61px;
   }
   .portfolio-items {
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   .seasons {
     flex-wrap: wrap;
@@ -249,12 +264,15 @@ html {
   .price {
     justify-content: space-around;
     max-width: 768px;
-    padding: 0px 0px 1000px 0px;
+   padding-bottom: 1088px;
+    margin-top: -286px;
   }
 
   .section-contacts {
     justify-content: space-around;
     max-width: 768px;
+    background-size: auto 600px;
+    background-position: -227px 0px;
   }
 
   .footer-container {
@@ -270,11 +288,18 @@ html {
     max-width: calc(100% - 40px);
     flex-wrap: wrap;
   }
+  .price-item{
+    width: 419px;
+  }
 
   .section-contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .contacts-conteiner{
+    position: 30 30;
   }
 }
 
@@ -349,11 +374,12 @@ a:hover {
 }
 
 .hero {
-  background: url(./assets/img/bg.jpg);
+  background-image: url(./assets/img/bg.jpg);
   background-position: center -127px;
   background-repeat: no-repeat;
   height: 783px;
   position: relative;
+  
 }
 
 .hero-content {
