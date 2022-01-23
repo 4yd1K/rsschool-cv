@@ -855,6 +855,77 @@ line-height: 88px;
     max-width: 768px;
   }
 
+  .skill-description {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 119px;
+    font-family: inter;
+    margin-top: -100px;
+    margin-bottom: 57px;
+    padding-bottom: 28px;
+  
+  }
+  
+  .skill-photo{
+    margin-bottom: 28px;
+    margin-left: 35px;
+    margin-top: -21px;
+  }
+  
+  .skill-video{
+    margin-bottom: 20px;
+    margin-left: -43px;
+    margin-top: -20px;
+  }
+
+  .skill-skill-retouch{
+    margin-bottom: 27px;
+    margin-left: 35px;
+    margin-top: 0px;
+  }
+
+  .S1 {
+    margin-top: -1px;
+    margin-left: 36px;
+  }
+
+
+  .S2 {
+    margin-top: 5px;
+    margin-left: -44px;
+    line-height: 43px;
+  }
+
+
+
+
+
+  .S3 {
+    margin-top: -1px;
+    margin-left: 36px;
+  }
+
+  .S4{
+    margin-top: -1px;
+    margin-left: -44px;
+    line-height: 43px;
+  }
+
+
+  .S4-2{
+    margin-top: -1px;
+    margin-left: -44px;
+    line-height: 43px;
+  }
+  
+
+
+  .skill-skill-skill-audio{
+    margin-bottom: 26px;
+    margin-left: -43px;
+    margin-top: 0px;
+  }
+
   .portfolio {
     justify-content: space-around;
     max-width: 768px;
