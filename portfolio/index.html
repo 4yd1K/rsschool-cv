@@ -194,7 +194,16 @@
 
         <div class="player">
           <img
- src="./assets/img/video-player2.jpg"
+            srcset="
+              ./assets/img/video-player.jpg 320w,
+              ./assets/img/video-player.jpg 480w,
+              ./assets/img/video-player.jpg 800w
+            "
+            sizes="(max-width: 440px) 440px,
+          
+            (max-width: 768px) 450px,
+            750px"
+            src="./assets/img/video-player.jpg"
             alt="video-img"
           />
 
