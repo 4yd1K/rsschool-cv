@@ -1,4 +1,4 @@
-import i18Obj from './translate.js';
+// import i18Obj from './translate.js';
 
 const hamburger = document.querySelector(".hamburger");
 const rMenu = document.querySelector(".right-menu");
@@ -107,26 +107,27 @@ preloadSummerImages();
 // подсвечивание кнопок
 
 // находим все кнопки
-//   const btns = document.querySelectorAll('.portfolio-btn');
-//   убираем класс у всех кнопок
-//   btns.forEach(btn => btn.classList.remove('active-btn') );
+  // const btns = document.querySelectorAll('.portfolio-btn');
+  // убираем класс у всех кнопок
+  // btns.forEach(btn => btn.classList.remove('active-btn') );
 
 // ищем все кнопки которые нахоядтся внутри элемента portfolio-btns
-const portfolioBtns = document.querySelector(".portfolio-btns");
+const portfolioBtns = document.querySelectorALL(".portfolio-btns");
 // каждой кнопке добавляем слушателя на событие клик
 portfolioBtns.forEach(btn => btn.addEventListener('click', changeActiveStatus));
+
 // функция для смены статуса кнопки по которой щелкнули
 function changeActiveStatus(event) {
-  portfolioBtns.forEach((btn) => btn.classList.remove("active-btn"));
-  if (event.target.classList.contains("portfolio-btn")) {
+  portfolioBtns.forEach(btn => btn.classList.remove("active-btn")); 
+  if (event.target.classList.contains("portfolio-btn")){
     event.target.classList.add("active-btn");
   }
 }
 
-function getTranslate(lang) {
-  const dataTranlate = document.querySelectorAll('[data-i18]')
-//   dataTranlate.forEach(element => {})
-console.log(dataTranlate)
-}
-getTranslate()
+// function getTranslate(lang) {
+//   const dataTranlate = document.querySelectorAll('[data-i18]')
+// //   dataTranlate.forEach(element => {})
+// console.log(dataTranlate)
+// }
+// getTranslate()
 

@@ -413,6 +413,11 @@ a:hover {
   color: #000;
   background-color: #bdae82;
 }
+
+.active-lang{
+  color:red;
+}
+
 .portfolio-items {
   justify-content: center;
   display: flex;
