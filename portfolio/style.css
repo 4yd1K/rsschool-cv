@@ -103,7 +103,7 @@ html {
 }
 .right-menu {
   /* display: none; */
-  left: -700px;
+  left: -1100px;
   height: 300px;
   position: absolute;
   transition: 0.5s
@@ -409,6 +409,10 @@ a:hover {
   color: black;
 }
 
+.active-btn {
+  color: #000;
+  background-color: #bdae82;
+}
 .portfolio-items {
   justify-content: center;
   display: flex;
