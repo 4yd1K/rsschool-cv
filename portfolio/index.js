@@ -36,3 +36,23 @@ rightMenuFifthlink.addEventListener('click', toggleMenu)
 
 
 // rMenu.addEventListener('click', openMenu);
+
+// портфолио 3
+
+const portfolioBtn = document.querySelector('.portfolio-btn');
+const portfolioImage = document.querySelector('.portfolio-image');
+
+portfolioBtn.addEventListener('click', () => {
+   portfolioImage.src = "/portfolio/assets/img/winter/1.jpg"
+});
+
+const portfolioBtns = document.querySelector('.portfolio-btns');
+
+
+// function changeImage(event) {
+//     dataset.winter('portfolio-btn')
+//     if(event.target.classList.contains('portfolio-btn')) {
+//         portfolioImages.forEach((img, index) => img.src = `./assets/img/winter/${index + 1}.jpg`); // здесь код функции, меняющей src изображений
+//     }
+//   }
+  

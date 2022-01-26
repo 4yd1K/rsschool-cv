@@ -384,7 +384,7 @@ a:hover {
   padding-left: 20px;
 }
 
-.seasons {
+.portfolio-btns {
   height: 55px;
   top: 240px;
   left: 272px;
@@ -394,7 +394,7 @@ a:hover {
   padding-top: 60px;
 }
 
-.season {
+.portfolio-btn {
   width: 220px;
   height: 55px;
   text-align: center;
@@ -404,7 +404,7 @@ a:hover {
   cursor: pointer;
   color: #bdae82;
 }
-.season:hover {
+.portfolio-btn:hover {
   background-color: #bdae82;
   color: black;
 }
@@ -936,7 +936,7 @@ line-height: 88px;
     flex-wrap: wrap;
     margin-top: 10px;
   }
-  .seasons {
+  .portfolio-btns {
     flex-wrap: wrap;
     width: 445px;
     align-items: center;
