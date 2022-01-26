@@ -39,14 +39,30 @@ rightMenuFifthlink.addEventListener('click', toggleMenu)
 
 // портфолио 3
 
-const portfolioBtn = document.querySelector('.portfolio-btn');
-const portfolioImage = document.querySelector('.portfolio-image');
+const portfolioBtn = document.querySelector('.winter');
+const portfolioBtn2 = document.querySelector('.spring');
+const portfolioBtn3 = document.querySelector('.summer');
+const portfolioBtn4 = document.querySelector('.autumn');
+const portfolioImages = document.querySelectorAll('.portfolio-image');;
 
 portfolioBtn.addEventListener('click', () => {
-   portfolioImage.src = "/portfolio/assets/img/winter/1.jpg"
+    portfolioImages.forEach((img, index) => img.src = `./assets/img/winter/${index + 1}.jpg`);
 });
 
-const portfolioBtns = document.querySelector('.portfolio-btns');
+portfolioBtn2.addEventListener('click', () => {
+    portfolioImages.forEach((img, index) => img.src = `./assets/img/spring/${index + 1}.jpg`);
+});
+
+portfolioBtn3.addEventListener('click', () => {
+    portfolioImages.forEach((img, index) => img.src = `./assets/img/summer/${index + 1}.jpg`);
+});
+
+portfolioBtn4.addEventListener('click', () => {
+    portfolioImages.forEach((img, index) => img.src = `./assets/img/autumn/${index + 1}.jpg`);
+});
+
+
+// const portfolioBtns = document.querySelector('.portfolio-btns');
 
 
 // function changeImage(event) {
