@@ -112,7 +112,7 @@ preloadSummerImages();
   // btns.forEach(btn => btn.classList.remove('active-btn') );
 
 // ищем все кнопки которые нахоядтся внутри элемента portfolio-btns
-const portfolioBtns = document.querySelectorALL(".portfolio-btns");
+const portfolioBtns = document.querySelector(".portfolio-btns");
 // каждой кнопке добавляем слушателя на событие клик
 portfolioBtns.forEach(btn => btn.addEventListener('click', changeActiveStatus));
 
