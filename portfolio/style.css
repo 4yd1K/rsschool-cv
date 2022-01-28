@@ -289,17 +289,17 @@ a:hover {
   background-image: linear-gradient(
     to top,
     #000 39px,
-    #bdae82 39px,
+    #d3b353 39px,
     #bdae82 41px,
     #000 41px
   );
 }
 
 .span {
-  width: 158px;
+  width: 196px;
   height: 80px;
   position: absolute;
-  margin-left: 272px;
+  margin-left: 256px;
   display: block;
   background-color: black;
   font-size: 40px;
@@ -308,10 +308,10 @@ a:hover {
 }
 
 .span2 {
-  width: 220px;
+  width: 275px;
   height: 80px;
   position: absolute;
-  margin-left: 240px;
+  margin-left: 204px;
   background-color: black;
   font-size: 40px;
   line-height: 80px;
@@ -824,17 +824,17 @@ line-height: 88px;
 
   .span {
     justify-content: space-around;
-    max-width: 129px;
+    max-width: 157px;
     justify-content: right;
-    margin-left: 118px;
+    margin-left: 107px;
     font-size: 33px;
   }
   .span2 {
     justify-content: space-around;
-    max-width: 187px;
+    max-width: 226px;
     justify-content: right;
     font-size: 33px;
-    margin-left: 89px;
+    margin-left: 82px;
   }
   .por{
     margin-top: 30px;
