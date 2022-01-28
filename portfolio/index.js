@@ -153,9 +153,9 @@ const elToChange = []
 elToChange.push(skillblock, portfolioblock)
 
 
-document.querySelector('.hero-button').addEventListener('click', () => {
+document.querySelector('.sun').addEventListener('click', () => {
   elToChange.forEach(el => el.classList.toggle('block-light'));
-  
+
 });
 
 // var theme = ['.skills', '.portfolio'];

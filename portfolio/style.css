@@ -262,6 +262,11 @@ a:hover {
   background-color: white;
   color: black;
 }
+
+.sun{
+  background-color: transparent;
+  border: none;
+}
 .video {
   height: 945px;
   width: 1440px;
