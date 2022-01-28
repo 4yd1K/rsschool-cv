@@ -144,6 +144,39 @@ function getTranslate(lang) {
 rus.addEventListener("click", () => getTranslate('ru'));
 eng.addEventListener("click", () => getTranslate('en'));
 
+
+// смена темы
+const skillblock = document.querySelector('.skills')
+const portfolioblock = document.querySelector('.portfolio')
+const elToChange = []
+
+elToChange.push(skillblock, portfolioblock)
+
+
+document.querySelector('.hero-button').addEventListener('click', () => {
+  elToChange.forEach(el => el.classList.toggle('block-light'));
+  
+});
+
+// var theme = ['.skills', '.portfolio'];
+// theme.forEach(
+
+//  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const i18Obj = {
   'en': {
     'skills': 'Skills',

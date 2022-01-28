@@ -184,6 +184,7 @@ a:hover {
   line-height: 50px;
   font-family: inter;
   padding-right: 20px;
+  
 }
 
 .hero {
@@ -242,6 +243,10 @@ a:hover {
   width: 1440px;
   background-color: black;
 }
+
+
+
+
 .hero-button:hover {
   color: #fff;
   transition: 0.3s;
@@ -250,6 +255,12 @@ a:hover {
   height: 1500px;
   width: 1440px;
   background-color: black;
+}
+
+.block-light {
+  
+  background-color: white;
+  color: black;
 }
 .video {
   height: 945px;
