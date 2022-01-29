@@ -166,6 +166,10 @@ const priceItem3 = document.querySelector('.card3')
 const titleItem1 = document.querySelector('.title-card1')
 const titleItem2 = document.querySelector('.title-card2')
 const titleItem3 = document.querySelector('.title-card3')
+const btnWinter = document.querySelector('.winter')
+const btnSpring = document.querySelector('.spring')
+const btnSummer = document.querySelector('.summer')
+const btnAutumn = document.querySelector('.autumn')
 
 // const title2 = document.querySelector('.por')
 const elToChange = []
@@ -183,6 +187,8 @@ let priceItemToChange =[]
 priceItemToChange.push(priceItem1, priceItem2, priceItem3)
 let titleItemToChange =[]
 titleItemToChange.push(titleItem1, titleItem2, titleItem3)
+let btnToChange =[]
+btnToChange.push(btnWinter, btnSpring, btnSummer, btnAutumn)
 
 
 document.querySelector('.sun').addEventListener('click', () => {
@@ -197,6 +203,7 @@ document.querySelector('.sun').addEventListener('click', () => {
   
   priceItemToChange.forEach(el => el.classList.toggle('price-item-light'));
   titleItemToChange.forEach(el => el.classList.toggle('title-card-light'));
+  btnToChange.forEach(el => el.classList.toggle('btn-light'));
 
 });
 

@@ -1127,3 +1127,13 @@ line-height: 88px;
 .title-card-light{
   color: #000;
 }
+
+.btn-light{
+background-color: white;
+color: black;
+}
+
+/* .btn-light:hover{
+  background-color: white;
+  color: black;
+  } */
