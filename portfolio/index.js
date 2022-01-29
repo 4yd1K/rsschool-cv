@@ -148,20 +148,86 @@ eng.addEventListener("click", () => getTranslate('en'));
 // смена темы
 const skillblock = document.querySelector('.skills')
 const portfolioblock = document.querySelector('.portfolio')
+const videoBlock = document.querySelector('.video')
+const priceBlock = document.querySelector('.price')
+
+const span = document.querySelector('.span')
+const span2 = document.querySelector('.span2')
+const span3 = document.querySelector('.span3')
+const span4 = document.querySelector('.span4')
+const span5 = document.querySelector('.span5')
+const titleSkills = document.querySelector('.section-title-skills')
+const titlePor = document.querySelector('.section-title-por')
+const titleVid = document.querySelector('.section-title-vid')
+const titlePr = document.querySelector('.section-title-pr')
+
+// const title2 = document.querySelector('.por')
 const elToChange = []
+const elToChange2 = []
+// const elToChange3 = []
 
-elToChange.push(skillblock, portfolioblock)
+// const elToChange4 = []
+// const elToChange5 = []
 
+elToChange.push(skillblock, portfolioblock, videoBlock, priceBlock)
+elToChange2.push(span,span2,span3, span4, span5)
+let titleListToChange = []
+titleListToChange.push(titleSkills, titlePor, titleVid, titlePr)
 
 document.querySelector('.sun').addEventListener('click', () => {
   elToChange.forEach(el => el.classList.toggle('block-light'));
+  titleListToChange.forEach(el => el.classList.toggle('title-light'));
+  // titleSkills.classList.toggle('title-light')
+  elToChange2.forEach(el => el.classList.toggle('span-light'));
+  
+ 
 
 });
 
-// var theme = ['.skills', '.portfolio'];
-// theme.forEach(
+// для span
 
-//  )
+
+
+
+
+// elToChange3.push(span)
+
+// document.querySelector('.sun').addEventListener('click', () => {
+//   elToChange3.forEach(el => el.classList.toggle('span-light'));
+
+// });
+
+
+// span 2
+
+
+// elToChange4.push(span2)
+
+// document.querySelector('.sun').addEventListener('click', () => {
+//   elToChange4.forEach(el => el.classList.toggle('span2-light'));
+
+// });
+
+// // для title
+// elToChange2.push(title)
+
+// document.querySelector('.sun').addEventListener('click', () => {
+//   elToChange2.forEach(el => el.classList.toggle('title-light'));
+
+// });
+
+// // для title 2 por
+// elToChange5.push(title2)
+
+// document.querySelector('.sun').addEventListener('click', () => {
+//   elToChange5.forEach(el => el.classList.toggle('title-light'));
+
+// });
+
+// // var theme = ['.skills', '.portfolio'];
+// // theme.forEach(
+
+// //  )
 
 
 

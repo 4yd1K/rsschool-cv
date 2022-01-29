@@ -257,11 +257,6 @@ a:hover {
   background-color: black;
 }
 
-.block-light {
-  
-  background-color: white;
-  color: black;
-}
 
 .sun{
   background-color: transparent;
@@ -293,7 +288,7 @@ a:hover {
   height: 80px;
 }
 
-.section-title {
+.section-title-skills, .section-title-por, .section-title-vid, .section-title-pr {
   height: 80px;
   width: 700px;
   margin-left: 370px;
@@ -311,6 +306,8 @@ a:hover {
   );
 }
 
+
+
 .span {
   width: 196px;
   height: 80px;
@@ -322,6 +319,10 @@ a:hover {
   line-height: 80px;
   font-family: Merriweather;
 }
+
+
+
+
 
 .span2 {
   width: 275px;
@@ -830,7 +831,7 @@ line-height: 88px;
 
 
 
-  .section-title {
+  .section-title-skills, .section-title-por, .section-title-vid, .section-title-pr {
      
      width: 364px;
   margin-left: 202px;
@@ -1092,4 +1093,28 @@ line-height: 88px;
     margin-top: -195px;
     margin-left: 21px;
   }
+}
+
+
+
+.block-light {
+  
+  background-color: white;
+  color: black;
+}
+
+.span-light{
+  color: #000;
+  background-color: white;
+}
+
+.title-light{
+  background-image: linear-gradient(
+    to top,
+    #fff 39px,
+    #000 39px,
+    #000 41px,
+    #fff 41px
+  );
+
 }
