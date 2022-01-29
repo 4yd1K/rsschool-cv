@@ -160,6 +160,12 @@ const titleSkills = document.querySelector('.section-title-skills')
 const titlePor = document.querySelector('.section-title-por')
 const titleVid = document.querySelector('.section-title-vid')
 const titlePr = document.querySelector('.section-title-pr')
+const priceItem1 = document.querySelector('.card1')
+const priceItem2 = document.querySelector('.card2')
+const priceItem3 = document.querySelector('.card3')
+const titleItem1 = document.querySelector('.title-card1')
+const titleItem2 = document.querySelector('.title-card2')
+const titleItem3 = document.querySelector('.title-card3')
 
 // const title2 = document.querySelector('.por')
 const elToChange = []
@@ -173,16 +179,27 @@ elToChange.push(skillblock, portfolioblock, videoBlock, priceBlock)
 elToChange2.push(span,span2,span3, span4, span5)
 let titleListToChange = []
 titleListToChange.push(titleSkills, titlePor, titleVid, titlePr)
+let priceItemToChange =[]
+priceItemToChange.push(priceItem1, priceItem2, priceItem3)
+let titleItemToChange =[]
+titleItemToChange.push(titleItem1, titleItem2, titleItem3)
+
 
 document.querySelector('.sun').addEventListener('click', () => {
   elToChange.forEach(el => el.classList.toggle('block-light'));
   titleListToChange.forEach(el => el.classList.toggle('title-light'));
-  // titleSkills.classList.toggle('title-light')
-  elToChange2.forEach(el => el.classList.toggle('span-light'));
   
- 
+  elToChange2.forEach(el => el.classList.toggle('span-light'));
+});
+
+
+document.querySelector('.sun').addEventListener('click', () => {
+  
+  priceItemToChange.forEach(el => el.classList.toggle('price-item-light'));
+  titleItemToChange.forEach(el => el.classList.toggle('title-card-light'));
 
 });
+
 
 // для span
 

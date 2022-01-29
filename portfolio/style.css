@@ -1118,3 +1118,12 @@ line-height: 88px;
   );
 
 }
+
+.price-item-light{
+  background-color: white;
+  color: #000;
+}
+
+.title-card-light{
+  color: #000;
+}
