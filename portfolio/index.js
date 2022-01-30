@@ -158,14 +158,11 @@ const btnWinter = document.querySelector(".winter");
 const btnSpring = document.querySelector(".spring");
 const btnSummer = document.querySelector(".summer");
 const btnAutumn = document.querySelector(".autumn");
-const sunButton = document.querySelector(".sun");
-// const title2 = document.querySelector('.por')
+const sunButton = document.querySelector(".sun-img");
+
 const elToChange = [];
 const elToChange2 = [];
-// const elToChange3 = []
 
-// const elToChange4 = []
-// const elToChange5 = []
 
 elToChange.push(skillblock, portfolioblock, videoBlock, priceBlock);
 elToChange2.push(span, span2, span3, span4);
@@ -179,8 +176,8 @@ let btnToChange = [];
 btnToChange.push(btnWinter, btnSpring, btnSummer, btnAutumn);
 
 function switchSun(event) {
-  event.target.classList.toggle("sun-active");
   let theme;
+  event.target.classList.toggle("sun-active");
   if (event.target.classList.contains("sun-active")) {
     localStorage.setItem("theme", "light");
     theme = "light";
@@ -188,10 +185,11 @@ function switchSun(event) {
     localStorage.setItem("theme", "dark");
     theme = "dark";
   }
-  return theme;
+  changeTheme(theme);
 }
 
 function changeTheme(theme) {
+ 
   if (theme === "light") {
     titleListToChange.forEach((el) => el.classList.add("title-light"));
     elToChange2.forEach((el) => el.classList.add("span-light"));
@@ -200,43 +198,40 @@ function changeTheme(theme) {
     titleItemToChange.forEach((el) => el.classList.add("title-card-light"));
     btnToChange.forEach((el) => el.classList.add("btn-light"));
   } else {
-
+    titleListToChange.forEach((el) => el.classList.remove("title-light"));
+    elToChange2.forEach((el) => el.classList.remove("span-light"));
+    elToChange.forEach((el) => el.classList.remove("block-light"));
+    priceItemToChange.forEach((el) => el.classList.remove("price-item-light"));
+    titleItemToChange.forEach((el) => el.classList.remove("title-card-light"));
+    btnToChange.forEach((el) => el.classList.remove("btn-light"));
   }
 }
 
-sunButton.addEventListener("click", () => {
-  // changeTheme(switchSun);
-  sunButton.classList.toggle("sun-active");
-  if (sunButton.classList.contains("sun-active")) {
-    localStorage.setItem("theme", "light");
-  } else {
-    localStorage.setItem("theme", "dark");
-  }
+sunButton.addEventListener("click", switchSun);
 
-  elToChange.forEach((el) => el.classList.toggle("block-light"));
-  titleListToChange.forEach((el) => el.classList.toggle("title-light"));
-  elToChange2.forEach((el) => el.classList.toggle("span-light"));
-  priceItemToChange.forEach((el) => el.classList.toggle("price-item-light"));
-  titleItemToChange.forEach((el) => el.classList.toggle("title-card-light"));
-  btnToChange.forEach((el) => el.classList.toggle("btn-light"));
-});
-
+// переменные дял работы с хранилищем
 let lang;
-let theme = "light";
-
-// function setLocalStorage() {
-//   localStorage.setItem("lang", lang);
-// }
-
-// window.addEventListener("beforeunload", getLocalStorage);
+let theme;
 
 function getLocalStorage() {
+  // получаем значение языка
   lang = localStorage.getItem("lang");
+  // если не уствноывлен
   if (!lang) {
     localStorage.setItem("lang", "en");
   } else {
     getTranslate(lang);
   }
+
+  // получаем значение темы
+  theme = localStorage.getItem("theme");
+  // если тема не задана или выбрана светлая
+  if (!theme || theme === "light") {
+    localStorage.setItem("theme", "light");
+    theme = "light";
+    sunButton.classList.add("sun-active");
+  }
+  changeTheme(theme);
 }
 window.addEventListener("load", getLocalStorage);
 
