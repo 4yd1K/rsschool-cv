@@ -76,7 +76,6 @@ html {
   margin-bottom: 8px;
 } */
 
-
 .right-menu {
   height: 300px;
   width: 200px;
@@ -98,23 +97,20 @@ html {
   display: flex;
   width: 300px;
   position: absolute;
-  transition: 0.5s
-  
+  transition: 0.5s;
 }
 .right-menu {
   /* display: none; */
   left: -1100px;
   height: 300px;
   position: absolute;
-  transition: 0.5s
-  
+  transition: 0.5s;
 }
 
-.open{
+.open {
   right: 0;
-  transition: 0.5s
+  transition: 0.5s;
 }
-
 
 .background {
   display: flex;
@@ -184,7 +180,6 @@ a:hover {
   line-height: 50px;
   font-family: inter;
   padding-right: 20px;
-  
 }
 
 .hero {
@@ -193,7 +188,6 @@ a:hover {
   background-repeat: no-repeat;
   height: 783px;
   position: relative;
-  
 }
 
 .hero-content {
@@ -244,9 +238,6 @@ a:hover {
   background-color: black;
 }
 
-
-
-
 .hero-button:hover {
   color: #fff;
   transition: 0.3s;
@@ -257,8 +248,7 @@ a:hover {
   background-color: black;
 }
 
-
-.sun{
+.sun {
   background-color: transparent;
   border: none;
 }
@@ -271,7 +261,6 @@ a:hover {
   height: 845px;
   width: 1440px;
   background-color: black;
-  
 }
 
 .contacts {
@@ -288,7 +277,10 @@ a:hover {
   height: 80px;
 }
 
-.section-title-skills, .section-title-por, .section-title-vid, .section-title-pr {
+.section-title-skills,
+.section-title-por,
+.section-title-vid,
+.section-title-pr {
   height: 80px;
   width: 700px;
   margin-left: 370px;
@@ -306,8 +298,6 @@ a:hover {
   );
 }
 
-
-
 .span {
   width: 196px;
   height: 80px;
@@ -319,10 +309,6 @@ a:hover {
   line-height: 80px;
   font-family: Merriweather;
 }
-
-
-
-
 
 .span2 {
   width: 275px;
@@ -429,10 +415,6 @@ a:hover {
 .active-btn {
   color: #000;
   background-color: #bdae82;
-}
-
-.active-lang{
-  color:red;
 }
 
 .portfolio-items {
@@ -709,51 +691,50 @@ textarea {
   transition: 0.3s;
 }
 
-
 @media (max-width: 768px) {
   .right-menu {
     /* display: none; */
     height: 1024px;
     transition: 0.5s;
-    width:620px;
+    width: 620px;
     position: absolute;
-}
+  }
 
-/* .hero{
+  /* .hero{
  height: 590px;
  
   background-image: url(/portfolio/assets/img/bg2.jpg);
 } */
-  
-.open-menu {
-  left: 19%;
-  display: flex;
-  width: 300px;
-  position: absolute;
-  transition: 0.5s;
-  width: 620px;
-  
-}
 
-.R-men{
-margin-left: 127px;
-padding-top: 134px;
-line-height: 88px;
-}
+  .open-menu {
+    left: 19%;
+    display: flex;
+    width: 300px;
+    position: absolute;
+    transition: 0.5s;
+    width: 620px;
+  }
 
-.R1 , .R2, .R3 , .R4, .R5{
+  .R-men {
+    margin-left: 127px;
+    padding-top: 134px;
+    line-height: 88px;
+  }
 
-  font-size: 36px;
-}
-
+  .R1,
+  .R2,
+  .R3,
+  .R4,
+  .R5 {
+    font-size: 36px;
+  }
 
   .toggleMenu {
     width: 0px;
     height: 300px;
     background-color: black;
     position: absolute;
-    transition: 0.5s
-   
+    transition: 0.5s;
   }
 
   .hamburger {
@@ -770,10 +751,7 @@ line-height: 88px;
   }
   .nav-link {
     display: none;
-    
   }
-
- 
 
   .header {
     background-size: auto 620px;
@@ -784,11 +762,10 @@ line-height: 88px;
     background-size: auto 620px;
     background-position: -5px -35px;
   }
-  
 
   .logo {
-   position: absolute;
-   margin-left: -615px;
+    position: absolute;
+    margin-left: -615px;
   }
 
   .container {
@@ -796,13 +773,11 @@ line-height: 88px;
     max-width: 768px;
   }
 
-  .hero{
-
+  .hero {
     background-size: auto 620px;
     margin-bottom: -432px;
     background-position: -6px -163px;
   }
-  
 
   .hero-content {
     justify-content: space-around;
@@ -810,32 +785,30 @@ line-height: 88px;
     margin-left: -169px;
     padding-bottom: 10px;
     margin-top: -251px;
-    
   }
-  .hero-text{
+  .hero-text {
     line-height: 23px;
     margin-bottom: 66px;
     margin-top: 28px;
     width: 389px;
-
   }
-  .h1{
+  .h1 {
     font-size: 32px;
     margin-bottom: -35px;
     margin-top: 36px;
   }
-  .hero-button{
+  .hero-button {
     width: 221px;
     margin-top: -5px;
   }
 
+  .section-title-skills,
+  .section-title-por,
+  .section-title-vid,
+  .section-title-pr {
+    width: 364px;
+    margin-left: 202px;
 
-
-  .section-title-skills, .section-title-por, .section-title-vid, .section-title-pr {
-     
-     width: 364px;
-  margin-left: 202px;
-    
     justify-content: right;
   }
 
@@ -853,7 +826,7 @@ line-height: 88px;
     font-size: 33px;
     margin-left: 82px;
   }
-  .por{
+  .por {
     margin-top: 30px;
     margin-top: 108px;
     margin-bottom: -8px;
@@ -889,22 +862,21 @@ line-height: 88px;
     margin-top: -100px;
     margin-bottom: 57px;
     padding-bottom: 28px;
-  
   }
-  
-  .skill-photo{
+
+  .skill-photo {
     margin-bottom: 28px;
     margin-left: 35px;
     margin-top: -21px;
   }
-  
-  .skill-video{
+
+  .skill-video {
     margin-bottom: 20px;
     margin-left: -43px;
     margin-top: -20px;
   }
 
-  .skill-skill-retouch{
+  .skill-skill-retouch {
     margin-bottom: 27px;
     margin-left: 35px;
     margin-top: 0px;
@@ -915,38 +887,30 @@ line-height: 88px;
     margin-left: 36px;
   }
 
-
   .S2 {
     margin-top: 5px;
     margin-left: -44px;
     line-height: 43px;
   }
 
-
-
-
-
   .S3 {
     margin-top: -1px;
     margin-left: 36px;
   }
 
-  .S4{
+  .S4 {
     margin-top: -1px;
     margin-left: -44px;
     line-height: 43px;
   }
 
-
-  .S{
+  .S {
     margin-top: -1px;
     margin-left: -44px;
     line-height: 43px;
   }
-  
 
-
-  .skill-skill-skill-audio{
+  .skill-skill-skill-audio {
     margin-bottom: 26px;
     margin-left: -43px;
     margin-top: 0px;
@@ -973,7 +937,7 @@ line-height: 88px;
   .video {
     justify-content: space-around;
     max-width: 768px;
-    
+
     height: 930px;
     margin-top: -1px;
   }
@@ -985,20 +949,18 @@ line-height: 88px;
     padding-top: 67px;
     height: 400px;
     width: 749px;
-    
   }
 
-  .span3{
+  .span3 {
     line-height: 77px;
     font-size: 34px;
   }
 
-  .vid{
-   
+  .vid {
     margin-top: 81px;
     margin-bottom: 11px;
   }
-  .span4{
+  .span4 {
     width: 120px;
     margin-top: 11px;
     font-size: 34px;
@@ -1007,8 +969,7 @@ line-height: 88px;
     line-height: 57px;
   }
 
-  .PR{
-    
+  .PR {
     margin-top: 110px;
     margin-bottom: -9px;
   }
@@ -1016,12 +977,12 @@ line-height: 88px;
   .price {
     justify-content: space-around;
     max-width: 768px;
-   padding-bottom: 37px;
+    padding-bottom: 37px;
     margin-top: -333px;
     height: 1900px;
   }
 
-  .play{
+  .play {
     height: 50px;
     width: 50px;
   }
@@ -1043,14 +1004,14 @@ line-height: 88px;
     margin-top: -101px;
     height: 200px;
   }
-  .School{
+  .School {
     margin-top: -36px;
     /* padding-top: 20px; */
     height: 69px;
     margin-bottom: 19px;
   }
 
-  .Social-list{
+  .Social-list {
     /* margin-top: 29px; */
     margin-bottom: 29px;
   }
@@ -1060,7 +1021,7 @@ line-height: 88px;
     max-width: calc(100% - 40px);
     flex-wrap: wrap;
   }
-  .price-item{
+  .price-item {
     width: 419px;
     height: 500px;
     margin-bottom: 24px;
@@ -1074,41 +1035,37 @@ line-height: 88px;
     /* margin-top: -71px; */
   }
 
-  .title-contact{
+  .title-contact {
     margin-left: 132px;
     font-size: 32px;
     padding-top: 21px;
     padding-bottom: 31px;
   }
 
-  .button-cont{
-
+  .button-cont {
     margin-left: 115px;
     margin-top: 24px;
     font-size: 25px;
   }
 
-  .contacts-conteiner{
+  .contacts-conteiner {
     position: 30 30;
     margin-top: -195px;
     margin-left: 21px;
   }
 }
 
-
-
 .block-light {
-  
   background-color: white;
   color: black;
 }
 
-.span-light{
+.span-light {
   color: #000;
   background-color: white;
 }
 
-.title-light{
+.title-light {
   background-image: linear-gradient(
     to top,
     #fff 39px,
@@ -1116,21 +1073,28 @@ line-height: 88px;
     #000 41px,
     #fff 41px
   );
-
 }
 
-.price-item-light{
+.price-item-light {
   background-color: white;
   color: #000;
 }
 
-.title-card-light{
+.title-card-light {
   color: #000;
 }
 
-.btn-light{
-background-color: white;
-color: black;
+.btn-light {
+  background-color: white;
+  color: black;
+}
+
+.sun-active {
+  color: #bdae82;
+}
+
+.active-lang {
+  color: #bdae82;
 }
 
 /* .btn-light:hover{
