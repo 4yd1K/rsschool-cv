@@ -159,10 +159,21 @@ const btnSpring = document.querySelector(".spring");
 const btnSummer = document.querySelector(".summer");
 const btnAutumn = document.querySelector(".autumn");
 const sunButton = document.querySelector(".sun-img");
+// const rightMenu = document.querySelector(".right-menu");
+// const rli1 = document.querySelector(".a");
+// const rli2 = document.querySelector(".R2");
+// const rli3 = document.querySelector(".R3");
+// const rli4 = document.querySelector(".R4");
+// const rli5 = document.querySelector(".R5");
+// const Line = document.querySelector(".line1");
+// const Line2 = document.querySelector(".line2");
+// const Line3 = document.querySelector(".line3");
 
 const elToChange = [];
 const elToChange2 = [];
 
+// let liToChange = [];
+// liToChange.push(rli1, rli2, rli3, rli4, rli5);
 
 elToChange.push(skillblock, portfolioblock, videoBlock, priceBlock);
 elToChange2.push(span, span2, span3, span4);
@@ -174,6 +185,7 @@ let titleItemToChange = [];
 titleItemToChange.push(titleItem1, titleItem2, titleItem3);
 let btnToChange = [];
 btnToChange.push(btnWinter, btnSpring, btnSummer, btnAutumn);
+
 
 function switchSun(event) {
   let theme;
@@ -197,6 +209,12 @@ function changeTheme(theme) {
     priceItemToChange.forEach((el) => el.classList.add("price-item-light"));
     titleItemToChange.forEach((el) => el.classList.add("title-card-light"));
     btnToChange.forEach((el) => el.classList.add("btn-light"));
+    // rightMenu.classList.add('right-menu-light')
+    // Line.classList.add('line-light')
+    // Line2.classList.add('line-light')
+    // Line3.classList.add('line-light')
+    // liToChange.forEach((el) => el.classList.add("R-light"));
+    
   } else {
     titleListToChange.forEach((el) => el.classList.remove("title-light"));
     elToChange2.forEach((el) => el.classList.remove("span-light"));
@@ -204,6 +222,12 @@ function changeTheme(theme) {
     priceItemToChange.forEach((el) => el.classList.remove("price-item-light"));
     titleItemToChange.forEach((el) => el.classList.remove("title-card-light"));
     btnToChange.forEach((el) => el.classList.remove("btn-light"));
+    // rightMenu.classList.remove('right-menu-light')
+    // Line.classList.remove('line-light')
+    // Line2.classList.remove('line-light')
+    // Line3.classList.remove('line-light')
+    // liToChange.forEach((el) => el.classList.remove("R-light"));
+    
   }
 }
 
