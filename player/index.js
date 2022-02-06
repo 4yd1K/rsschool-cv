@@ -9,7 +9,7 @@ const player = document.querySelector('.player'),
       songTitle = document.querySelector('.song-title'),
       img = document.querySelector('.img'),
       imgSrc = document.querySelector('.play-pause')
-      time = document.querySelector('controls__time')
+      time = document.querySelector('.controls__time')
 
 // название песен
 const songs = ["Don't Hurt Yourself", "Don't Start Now"]
@@ -80,50 +80,58 @@ prevBtn.addEventListener('click', prevSong)
 
 // progress bar
 
-function updateProgress(e) {
-    const {duration, currentTime} = e.srcElement
-    // console.log (duration)
-    // console.log (currentTime)
-    const progressPercent = (currentTime / duration) * 100
-    progress.style.width= `${progressPercent}%`
+// function updateProgress(e) {
+//     const {duration, currentTime} = e.srcElement
+//     // console.log (duration)
+//     // console.log (currentTime)
+//     const progressPercent = (currentTime / duration) * 100
+//     progress.style.width= `${progressPercent}%`
 
 
-}
+// }
 
-audio.addEventListener('timeupdate', updateProgress )
+// audio.addEventListener('timeupdate', updateProgress )
+
 
 // set tprogress
-function setProgress(e) {
-    const width = this.clientWidth
-    const clickX = e.offsetX 
-    const duration = audio.duration
+// function setProgress(e) {
+//     const width = this.clientWidth
+//     const clickX = e.offsetX 
+//     const duration = audio.duration
 
-    audio.currentTime = (clickX / width) * duration
+//     audio.currentTime = (clickX / width) * duration
    
     
 
-}
-progressContainer.addEventListener('click', setProgress)
+// }
+// progressContainer.addEventListener('click', setProgress)
 
 // autoplay 
 
 audio.addEventListener('ended', nextSong)
 
-// //timer
-// function updateProgress () {
-//     progress.value = (audio.currentTime/audio.duration) *100
+//timer
+function updateProg () {
+    progress.value = (audio.currentTime/audio.duration) *100
 
-//     // minutes
-//     let minutes = Math.floor(audio.currentTime / 60)
-//     if (minutes < 10){
-//         minutes = '0' + String(minutes)
-//     }
-//     // seconds
-//     let seconds = Math.floor (audio.currentTime % 60)
-//     if (seconds < 10){
-//         seconds = '0' + String(seconds)
-//     }
+    // minutes
+    let minutes = Math.floor(audio.currentTime / 60)
+    if (minutes < 10){
+        minutes = '0' + String(minutes)
+    }
+    // seconds
+    let seconds = Math.floor (audio.currentTime % 60)
+    if (seconds < 10){
+        seconds = '0' + String(seconds)
+    }
 
-//     time.innerHTML = `${minutes}: ${seconds}`
-// }
-// audio.addEventListener('timeupdate', updateProgress)
+    time.innerHTML = `${minutes}:${seconds}`
+}
+audio.addEventListener('timeupdate', updateProg)
+
+// setprogress 
+function setProgress () {
+    audio.currentTime = (progress.value * audio.duration) / 100
+}
+progress.addEventListener('change', setProgress)
+

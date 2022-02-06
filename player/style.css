@@ -131,7 +131,7 @@
     left: 28%;
 }
 
-.progress_container {
+.progress {
     -webkit-appearance: none;
     appearance: none;
     position: absolute;
@@ -148,11 +148,12 @@
 
 
 }
-.progress{
-    background-color: rgb(34, 70, 231);
-    height: 7px;
-    border-radius: 30px;
 
+.controls__time{
+    color: white;
+    z-index: 100;
+    margin-top: 310px;
+    margin-left: -180px;
 }
 
 
