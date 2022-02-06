@@ -155,6 +155,7 @@
     margin-top: 380px;
     margin-left: -180px;
     position: absolute;
+    font-size: 15px;
 }
 
 .song-time{
@@ -163,6 +164,8 @@
     margin-top: 320px;
     margin-right: -182px;
     position: absolute;
+    color: #68ff7c ;
+    font-size: 15px;
 }
 
 
