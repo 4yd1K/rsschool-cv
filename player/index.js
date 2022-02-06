@@ -3,7 +3,8 @@ const player = document.querySelector('.player'),
       prevBtn = document.querySelector('.previous-song'),
       nextBtn = document.querySelector('.next-song'),
       audio = document.querySelector('.audio'),
-      progress = document.querySelector('.progress-bar'),
+      progressContainer = document.querySelector('.progress_container'),
+      progress = document.querySelector('.progress'),
       songArtist = document.querySelector('.song-artist'),
       songTitle = document.querySelector('.song-title'),
       img = document.querySelector('.img'),
@@ -75,3 +76,32 @@ function prevSong() {
      playSong()
 }
 prevBtn.addEventListener('click', prevSong)
+
+// progress bar
+
+function updateProgress(e) {
+    const {duration, currentTime} = e.srcElement
+    
+    const progressPercent = (currentTime / duration) * 100
+    progress.style.width= `${progressPercent}%`
+
+
+}
+
+audio.addEventListener('timeupdate', updateProgress )
+
+// set tprogress
+function setProgress(e) {
+    const width = this.clientWidth
+    const clickX = e.offsetX 
+    const duration = audio.duration
+
+    audio.currentTime = (clickX / width) * duration
+    
+
+}
+progressContainer.addEventListener('click', setProgress)
+
+// autoplay 
+
+audio.addEventListener('ended', nextSong)

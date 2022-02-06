@@ -4,6 +4,7 @@
   box-sizing: border-box;
 } */
 
+
 .background{
     
     position: absolute;
@@ -130,18 +131,26 @@
     left: 28%;
 }
 
-.progress-bar {
+.progress_container {
     -webkit-appearance: none;
     appearance: none;
     position: absolute;
     z-index: 4;
-    height: 5px;
-    background: #000000;
+    height: 7px;
+    background: #a7dab4;
     width: 160pt;
     bottom: 5%;
     border-radius: 30px;
     left: 17%;
     cursor: pointer;
+   
+    
+}
+.progress{
+    background-color: rgb(34, 70, 231);
+    height: 7px;
+    border-radius: 30px;
+    
 }
 
 
