@@ -149,11 +149,20 @@
 
 }
 
-.controls__time{
+.controls__time {
     color: white;
     z-index: 100;
-    margin-top: 310px;
+    margin-top: 380px;
     margin-left: -180px;
+    position: absolute;
+}
+
+.song-time{
+    color: white;
+    z-index: 100;
+    margin-top: 320px;
+    margin-right: -182px;
+    position: absolute;
 }
 
 
