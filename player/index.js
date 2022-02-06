@@ -5,26 +5,30 @@ const player = document.querySelector('.player'),
       audio = document.querySelector('.audio'),
       progressContainer = document.querySelector('.progress_container'),
       progress = document.querySelector('.progress'),
-      songArtist = document.querySelector('.song-artist'),
+      artistTitle = document.querySelector('.song-artist'),
       songTitle = document.querySelector('.song-title'),
       img = document.querySelector('.img'),
-      imgSrc = document.querySelector('.play-pause')
+      imgSrc = document.querySelector('.play-pause'),
       time = document.querySelector('.controls__time')
 
 // название песен
 const songs = ["Don't Hurt Yourself", "Don't Start Now"]
-const artist = ['Beyonce', 'Dua Lipa']
+
+const artists = ['Beyonce', 'Dua Lipa']
       
 // песня по умолсанию
 let songIndex= 0;
+let artistIndex = 0;
 
 // Init
-function loadSong (song) {
+function loadSong (song, artist) {
+    artistTitle.innerHTML = artist
     songTitle.innerHTML = song
     audio.src = `./assets/audio/${song}.mp3`
     img.src = `./assets/img/cover${songIndex + 1}.png`
 }
-loadSong(songs[songIndex])
+loadSong(songs[songIndex], artists[artistIndex])
+// loadSong(artist[artistIndex])
 
 // play
 function playSong () {
@@ -54,13 +58,16 @@ playBtn.addEventListener('click', () => {
 
 function nextSong() {
     songIndex++ 
+    artistIndex++
 
     if(songIndex > songs.length - 1){
         songIndex = 0 
+        artistIndex = 0
+        
     }
     
     
-     loadSong(songs[songIndex])
+     loadSong(songs[songIndex], artists[artistIndex])
      playSong()
 }
 nextBtn.addEventListener('click', nextSong)
@@ -68,12 +75,14 @@ nextBtn.addEventListener('click', nextSong)
 // prev song
 function prevSong() {
     songIndex--
+    artistIndex--
 
     if(songIndex < 0){
         songIndex = songs.length-1
+        artistIndex = artists.length-1
     }
 
-    loadSong(songs[songIndex])
+    loadSong(songs[songIndex], artists[artistIndex])
      playSong()
 }
 prevBtn.addEventListener('click', prevSong)
