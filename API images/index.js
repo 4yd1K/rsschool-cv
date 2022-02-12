@@ -1,7 +1,7 @@
 const button = document.querySelector(".btn");
 const qt = document.querySelector(".qoute-text");
 const qa = document.querySelector(".quote-author");
-const quotes = 'quotes.json';
+const quotes = 'https://api.icndb.com/jokes/random';
 let randomNumber = 0;
 
 async function getQuotes() {
@@ -9,12 +9,12 @@ async function getQuotes() {
     
         const res = await fetch(quotes);
         const data = await res.json(); 
-        // console.log(data);
-        randomNumber = Math.round(Math.random() * data.length);
+        console.log(data);
+        // randomNumber = Math.round(Math.random() * data.length);
         // console.log(data[randomNumber]);
         // console.log(randomNumber);
-        qt.textContent = data[randomNumber].text;
-        qa.textContent = data[randomNumber].author;
+        qt.textContent = data.value.joke;
+        // qa.textContent = data[randomNumber].author;
 
 
   } catch (error) {
