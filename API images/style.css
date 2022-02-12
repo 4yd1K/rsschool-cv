@@ -41,4 +41,21 @@
   .quote-author{
       font-weight: bold;
   }
+
+  .switch-lang{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 70px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: inter;
+    padding-right: 20px;
+  }
+  
+  .active-lang {
+    color: #bdae82;
+  }
     
