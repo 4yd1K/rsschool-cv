@@ -33,6 +33,7 @@
   .btn {
     padding: 8px;
     cursor: pointer;
+    margin-bottom: 10px;
   }
   .quote{
       max-width: 500px;
