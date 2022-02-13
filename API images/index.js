@@ -4,6 +4,7 @@ const qa = document.querySelector(".quote-author");
 let quotes = 'quotes.json';
 const rus = document.querySelector(".ru");
 const bel = document.querySelector(".be");
+const img = document.querySelector(".img");
 
 function switchLang (event) {
     // event.target.classList.toggle("active-lang");
@@ -21,6 +22,7 @@ function switchLang (event) {
 }
 bel.addEventListener('click', switchLang );
 rus.addEventListener('click', switchLang );
+
 
 async function getQuotes() {
   try {
@@ -44,6 +46,20 @@ async function getQuotes() {
 }
 getQuotes()
 
-button.addEventListener("click", () => {
-    getQuotes();
-});
+
+
+button.addEventListener("click", getQuotes);
+
+function startAnimation(){
+img.classList.toggle('animation');
+    
+    setTimeout(() => {
+        img.classList.remove('animation');
+    }, 500);
+}
+button.addEventListener("click", startAnimation)
+
+
+// button.addEventListener("click", () => {
+//     img.classList.add();
+// });
