@@ -1,6 +1,6 @@
 const area = document.querySelector(".area");
 let move = 0;
-let result = "ничья";
+let result = "";
 const contentWrapper = document.querySelector(".content");
 const modalResult = document.querySelector(".modal-result-wrapper");
 const overlay = document.querySelector(".overlay");
@@ -20,6 +20,7 @@ area.addEventListener("click", (event) => {
 
 const check = () => {
   const boxes = document.getElementsByClassName("box");
+  
   const arr = [
     [0, 1, 2],
     [3, 4, 5],
@@ -41,7 +42,12 @@ const check = () => {
     ) {
       result = "нолики";
       prepareResult(result);
-    }
+    } else if (
+       move === 9 && result !== "крестики" &&  result !=="нолики"
+      ) {
+        result = "ничья";
+        prepareResult(result);
+      }
   }
 };
 
