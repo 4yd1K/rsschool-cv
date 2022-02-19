@@ -46,7 +46,7 @@ const check = () => {
        move === 9 && result !== "крестики" &&  result !=="нолики"
       ) {
         result = "ничья";
-        prepareResult(result);
+        nobodyWin(result);
       }
   }
 };
@@ -55,6 +55,11 @@ const prepareResult = (winner) => {
   contentWrapper.innerHTML = `Победили ${winner} !`;
   modalResult.style.display = "block";
 };
+
+const nobodyWin = (nowin) => {
+    contentWrapper.innerHTML = `${nowin} !`;
+    modalResult.style.display = "block";
+  };
 
 const closeModal = () => {
   modalResult.style.display = "none";
